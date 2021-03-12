@@ -29,6 +29,18 @@ cd gentle
 ./install.sh
 python3 align.py audio.mp3 words.txt
 ```
-If you need to install openfst, cd to etc/kaldi/tools/ then wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.5.tar.gz cd into openfst-1.6.5 and follow make instructions here - https://aghriss.github.io/posts/2018/01/01/OpenFSTubuntu.html
+If you need to install openfst, first 
+```
+cd ext/kaldi/tools/ 
+```
+then 
+```
+wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.5.tar.gz 
+```
+next
+```
+cd openfst-1.6.5
+```
+and follow make instructions here - https://aghriss.github.io/posts/2018/01/01/OpenFSTubuntu.html
 
 The default behaviour outputs the JSON to stdout.  See `python3 align.py --help` for options.
