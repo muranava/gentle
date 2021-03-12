@@ -37,6 +37,10 @@ then
 ```
 wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.5.tar.gz 
 ```
+after untar file
+``
+tar -xf openfst-1.6.5.tar.gz
+```
 next
 ```
 cd openfst-1.6.5
